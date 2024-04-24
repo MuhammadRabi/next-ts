@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className='h-screen border border-red-400'>
+    <main className='h-screen'>
       <div className='container mt-36'>
         <h1 className='my-12 bg-gradient-to-r from-sky-400 to-emerald-700 bg-clip-text p-4 text-center text-6xl font-bold text-transparent'>
           This is a template for Next.js Projects

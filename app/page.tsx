@@ -1,12 +1,12 @@
 export default function Home() {
   return (
     <main className='h-screen'>
-      <div className='container mt-36'>
-        <h1 className='my-12 bg-gradient-to-r from-sky-400 to-emerald-700 bg-clip-text p-4 text-center text-6xl font-bold text-transparent'>
+      <div className='rounded-lg border-4 border-red-100 py-24'>
+        <h1 className='my-12 bg-gradient-to-r from-sky-400 to-emerald-700 bg-clip-text p-4 text-center text-4xl font-bold text-transparent md:text-6xl'>
           This is a template for Next.js Projects
         </h1>
-        <article className='mx-auto w-full leading-8 shadow-lg lg:w-3/4 '>
-          <p className='rounded-md border border-sky-400/25 bg-slate-100/75 p-4 text-slate-800'>
+        <article className='mx-auto w-full  shadow-lg lg:w-3/4 '>
+          <p className='rounded-md border border-sky-400/25 bg-slate-100/75 p-4 leading-8 text-slate-800 max-md:text-sm max-md:leading-7'>
             Thyra surveyed the water around her, diligently waiting for a minnow
             to reveal itself between the soft glints of reflected sunlight. Her
             long skirt was knotted around her waist, serving two purposes –

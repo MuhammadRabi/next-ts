@@ -3,7 +3,7 @@ import { ThemeSwitcher } from './theme-switcher'
 
 const Header = () => {
   return (
-    <header className='flex justify-between py-4'>
+    <header className='flex items-center justify-between py-4'>
       <div>header</div>
       <ThemeSwitcher />
     </header>

@@ -1,21 +1,22 @@
 'use client'
 import { Moon, SunMoon } from 'lucide-react'
 import { useTheme } from 'next-themes'
+import { Button } from './ui/button'
 
 export const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme()
 
   return (
-    <div>
+    <Button
+      variant='ghost'
+      onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+    >
       {theme === 'dark' ? (
-        <button onClick={() => setTheme('light')}>
-          <SunMoon />
-        </button>
+        <SunMoon className='size-6 text-orange-500' />
       ) : (
-        <button onClick={() => setTheme('dark')}>
-          <Moon />
-        </button>
+        <Moon className='size-6 text-sky-950' />
       )}
-    </div>
+      <span className='sr-only'>Toggle theme</span>
+    </Button>
   )
 }
